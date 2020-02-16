@@ -25,7 +25,7 @@ class ParticipateForumTest extends TestCase
         $thread = factory(Thread::class)->create();
 
         // when the user adds a reply to the thread
-        $reply = factory(Reply::class)->create();
+        $reply = factory(Reply::class)->make();
         $this->post($thread->path().'/replies', $reply->toArray());
 
         // Then their reply should be visible on the page
@@ -33,17 +33,15 @@ class ParticipateForumTest extends TestCase
             ->assertSee($reply->body);
     }
 
+    /**
+     * @test
+     */
     public function unauthentiated_users_may_not_participate()
     {
-        // creation of thread
-        $thread = factory(Thread::class)->create();
-        // creation of reply
-        $reply = factory(Reply::class)->create();
-
-        // post request for replies
-        $this->post($thread->path().'/replies', $reply->toArray());
-
         // throw an exception if user isnt logged in
         $this->expectException(AuthenticationException::class);
+
+        // post request for replies
+        $this->post('/threads/1/replies', []);
     }
 }
