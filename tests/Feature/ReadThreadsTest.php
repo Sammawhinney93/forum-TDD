@@ -6,6 +6,7 @@ use App\Reply;
 use App\Thread;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
+use function Tests\utilities\create;
 
 class ReadThreadsTest extends TestCase
 {
@@ -21,7 +22,7 @@ class ReadThreadsTest extends TestCase
         parent::setUp();
 
         // add thread creation to setup to reduce repeated code within test
-        $this->thread = factory(Thread::class)->create();
+        $this->thread = create(Thread::class);
     }
 
     /**
@@ -50,8 +51,7 @@ class ReadThreadsTest extends TestCase
     public function a_user_can_read_replies_that_are_associated_with_a_thread()
     {
         // And that thread includes replies
-        $reply = factory(Reply::class)
-            ->create(['thread_id' => $this->thread->id]);
+        $reply = create(Reply::class, ['thread_id' => $this->thread->id]);
 
         // When we visit a thread page
         $this->get($this->thread->path())

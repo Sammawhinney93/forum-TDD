@@ -7,6 +7,7 @@ use App\User;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
+use function Tests\utilities\create;
 
 class ThreadTest extends TestCase
 {
@@ -22,7 +23,7 @@ class ThreadTest extends TestCase
         parent::setUp();
 
         // add thread creation to setup to reduce repeated code within test
-        $this->thread = factory(Thread::class)->create();
+        $this->thread = create(Thread::class);
     }
 
     /**

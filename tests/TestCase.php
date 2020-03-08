@@ -2,15 +2,21 @@
 
 namespace Tests;
 
+use App\User;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use function Tests\utilities\create;
 
 abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
 
     // function used for the authenticated user to be re-used throughout testing for readability
-    public function signIn($user)
+    protected function signIn($user = null)
     {
-        $this->be($user);
+        $user = $user ?: create(User::class);
+
+        $this->actingAs($user);
+
+        return $this;
     }
 }
