@@ -18,9 +18,9 @@ Route::get('/', function () {
 Route::get('/home', 'HomeController@index')->name('home');
 
 // Threads route */
-Route::get('/threads', 'ThreadsController@index');
-Route::get('/threads/{thread}', 'ThreadsController@show');
-Route::post('/threads', 'ThreadsController@store');
+
+//
+Route::resource('threads', 'ThreadsController');
 Route::post('/threads/{thread}/replies', 'RepliesController@store');
 
 Auth::routes();

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168ee58f-55b8-4f77-8c3a-68a942f4aa48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/utilities/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/threads/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ParticipateForumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ParticipateForumTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ReplyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ReplyTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,10 +205,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583666338499" />
-    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup" timestamp="1583667606438">
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup" timestamp="1583669678791">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583667606438" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583669678791" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.75.1920.1057@0.0.1440.900" timestamp="1583668163978" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581089083044" />
   </component>
 </project>
