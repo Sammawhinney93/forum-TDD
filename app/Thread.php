@@ -11,10 +11,12 @@ class Thread extends Model
 
     /**
      * Fetch the path to the current thread.
+     *
+     * @return string
      */
     public function path(): string
     {
-        return '/threads/' . $this->id;
+        return "/threads/{$this->channel->slug}/{$this->id}";
     }
     /**
      * One to many, a Thread has many replies
@@ -30,6 +32,14 @@ class Thread extends Model
     public function creator()
     {
         return $this->belongsTo(User::class, 'user_id');
+    }
+
+    /**
+     * One to many (inverse) threads can belong to a channel
+     */
+    public function channel()
+    {
+        return $this->belongsTo(Channel::class);
     }
 
     /**

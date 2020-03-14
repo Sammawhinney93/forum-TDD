@@ -17,9 +17,11 @@ class RepliesController extends Controller
     }
 
     /**
+     * @param integer $channelId
      * @param Thread $thread
+     * @return RedirectResponse
      */
-    public function store(Thread $thread): RedirectResponse
+    public function store($channelId, Thread $thread): RedirectResponse
     {
         $thread->addReply([
             'body' => request('body'),

@@ -28,7 +28,7 @@ class ParticipateForumTest extends TestCase
 
         // when the user adds a reply to the thread
         $reply = make(Reply::class);
-        $this->post($thread->path().'/replies', $reply->toArray());
+        $this->post($thread->path() . '/replies', $reply->toArray());
 
         // Then their reply should be visible on the page
         $this->get($thread->path())
@@ -40,10 +40,9 @@ class ParticipateForumTest extends TestCase
      */
     public function unauthentiated_users_may_not_participate()
     {
-        // throw an exception if user isnt logged in
-        $this->expectException(AuthenticationException::class);
-
         // post request for replies
-        $this->post('/threads/1/replies', []);
+        $this->withExceptionHandling()
+            ->post('/threads/some-channel/1/replies', [])
+            ->assertRedirect('/login');
     }
 }

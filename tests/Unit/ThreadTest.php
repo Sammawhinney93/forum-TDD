@@ -2,12 +2,14 @@
 
 namespace Tests\Unit;
 
+use App\Channel;
 use App\Thread;
 use App\User;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 use function Tests\utilities\create;
+use function Tests\utilities\make;
 
 class ThreadTest extends TestCase
 {
@@ -24,6 +26,18 @@ class ThreadTest extends TestCase
 
         // add thread creation to setup to reduce repeated code within test
         $this->thread = create(Thread::class);
+    }
+
+    /**
+     * @test
+     */
+    public function a_thread_can_make_a_string_path()
+    {
+        $thread = create(Thread::class);
+
+        $this->assertEquals(
+            "/threads/{$thread->channel->slug}/{$thread->id}", $thread->path()
+        );
     }
 
     /**
@@ -57,5 +71,15 @@ class ThreadTest extends TestCase
 
         // asserts that a thread contains 1 reply
         $this->assertCount(1, $this->thread->replies);
+    }
+
+    /**
+     * @test
+     */
+    public function a_thread_belongs_to_a_channel()
+    {
+        $thread = create(Thread::class);
+
+        $this->assertInstanceOf(Channel::class, $thread->channel);
     }
 }

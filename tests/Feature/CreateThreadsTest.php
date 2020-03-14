@@ -3,9 +3,9 @@
 namespace Tests\Feature;
 
 use App\Thread;
-use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
+use function Tests\utilities\create;
 use function Tests\utilities\make;
 
 class CreateThreadsTest extends TestCase
@@ -21,7 +21,7 @@ class CreateThreadsTest extends TestCase
         $this->signIn();
 
         // when we hit the endpoint to create a new thread
-        $thread = make(Thread::class);
+        $thread = create(Thread::class);
 
         $this->post('/threads', $thread->toArray());
 
@@ -34,25 +34,14 @@ class CreateThreadsTest extends TestCase
     /**
      * @test
      */
-    public function guests_may_not_make_threads()
+    public function guests_may_not_create_threads()
     {
-        // asserts exception for unauthentication
-        $this->expectException(AuthenticationException::class);
+        $this->withExceptionHandling();
 
-        // creates a thread
-        $thread = make(Thread::class);
+        $this->get('/threads/create')
+            ->assertRedirect('/login');
 
-        // posts thread
-        $this->post('/threads', $thread->toArray());
-    }
-
-    /**
-     * @test
-     */
-    public function guests_cannot_see_create_threads_page()
-    {
-        $this->withExceptionHandling()
-            ->get('/threads/create')
+        $this->post('/threads')
             ->assertRedirect('/login');
     }
 }
