@@ -57,7 +57,7 @@ class ThreadsController extends Controller
      * @param Thread $thread
      * @return View
      */
-    public function show(int $channelId, Thread $thread): View
+    public function show($channelId, Thread $thread): View
     {
         return view('threads.show', compact('thread'));
     }
