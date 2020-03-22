@@ -16,7 +16,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        View::share('channels', Channel::all());
+        \View::composer('*', function ($view) {
+            $view->with('channels', Channel::all());
+        });
     }
 
     /**
