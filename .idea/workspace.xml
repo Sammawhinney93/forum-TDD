@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168ee58f-55b8-4f77-8c3a-68a942f4aa48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ChannelTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/forum/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/forum/virtualbox/action_set_name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Channel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Channel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +142,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -168,7 +175,8 @@
       <workItem from="1581088941779" duration="806000" />
       <workItem from="1581159419657" duration="6525000" />
       <workItem from="1581849485941" duration="7817000" />
-      <workItem from="1584178953715" duration="7476000" />
+      <workItem from="1584178953715" duration="8927000" />
+      <workItem from="1584874164340" duration="2293000" />
     </task>
     <servers />
   </component>
@@ -176,10 +184,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581164283281">
+    <state x="526" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1584875693543">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="526" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584875693543" />
+    <state x="562" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584187792125">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
     <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1581164283281" />
+    <state x="562" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584187792125" />
     <state x="498" y="186" key="#phpunit.xml" timestamp="1584179924847">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -208,15 +221,15 @@
     </state>
     <state x="445" y="306" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1581849485979" />
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584178953794" />
-    <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1583666338499">
+    <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1584875773220">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583666338499" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1584186460417">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584875773220" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup" timestamp="1584876137511">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583669678791" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584876137511" />
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.75.1920.1057@0.0.1440.900" timestamp="1583668163978" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584186460417" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584187956119" />
   </component>
 </project>

@@ -19,10 +19,20 @@ class ThreadsController extends Controller
 
     /**
      * Display thread list.
+     *
+     * @param null $channelId
+     *
+     * @return View
      */
-    public function index(): View
+    public function index(Channel $channel): View
     {
-        $threads = Thread::latest()->get();
+        if ($channel->exists) {
+
+            $threads = $channel->threads()->latest()->get();
+
+        } else {
+            $threads = Thread::latest()->get();
+        }
 
         return view('threads.index', compact('threads'));
     }
