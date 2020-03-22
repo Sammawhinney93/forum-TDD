@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use App\Channel;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\View\View;
+use function foo\func;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        View::share('channels', Channel::all());
     }
 
     /**
