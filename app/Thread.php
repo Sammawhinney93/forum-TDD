@@ -10,6 +10,18 @@ class Thread extends Model
     protected $guarded = [];
 
     /**
+     * Boot the model.
+     */
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::addGlobalScope('replyCount', function ($builder) {
+            $builder->withCount('replies');
+        });
+    }
+
+    /**
      * Fetch the path to the current thread.
      *
      * @return string
