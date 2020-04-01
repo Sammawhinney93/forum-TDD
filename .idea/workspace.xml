@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168ee58f-55b8-4f77-8c3a-68a942f4aa48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/forum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/forum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vagrant/machines/forum/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/forum/virtualbox/action_set_name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/threads/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/utilities/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utilities/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +121,7 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/league/commonmark-ext-table" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XU7hOf0eFYMptAkMgCPb1y2UfA" />
@@ -174,7 +179,7 @@
       <workItem from="1581849485941" duration="7817000" />
       <workItem from="1584178953715" duration="8927000" />
       <workItem from="1584874164340" duration="6630000" />
-      <workItem from="1585759510336" duration="612000" />
+      <workItem from="1585759510336" duration="2851000" />
     </task>
     <servers />
   </component>
@@ -227,11 +232,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584875773220" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1585759944921">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1585763353313">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584879403060" />
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.75.1920.1057@0.0.1440.900" timestamp="1583668163978" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585759944921" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585763353313" />
   </component>
 </project>
