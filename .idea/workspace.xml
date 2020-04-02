@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168ee58f-55b8-4f77-8c3a-68a942f4aa48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/forum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/forum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/threads/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/utilities/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/utilities/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Favorite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,25 +210,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584179775879" />
-    <state x="608" y="196" key="RollbackChangesDialog" timestamp="1584185617651">
+    <state x="608" y="196" key="RollbackChangesDialog" timestamp="1585856737634">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="521" y="168" key="RollbackChangesDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583664816796" />
-    <state x="608" y="196" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584185617651" />
+    <state x="608" y="196" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585856737634" />
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1584178953794">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="445" y="306" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1581849485979" />
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584178953794" />
-    <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1584875773220">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="481" y="133" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1585857194120">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584875773220" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1585763353313">
+    <state x="481" y="133" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585857194120" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1585857163515">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584879403060" />
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.75.1920.1057@0.0.1440.900" timestamp="1583668163978" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585763353313" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585857163515" />
   </component>
 </project>
