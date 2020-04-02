@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168ee58f-55b8-4f77-8c3a-68a942f4aa48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Favoritable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +119,8 @@
       <path value="$PROJECT_DIR$/vendor/league/commonmark-ext-table" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XU7hOf0eFYMptAkMgCPb1y2UfA" />
@@ -196,16 +203,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="498" y="186" key="#phpunit.xml/0.0.1680.1050@0.0.1680.1050" timestamp="1584179924847" />
-    <state x="117" y="117" width="1344" height="840" key="DiffContextDialog" timestamp="1584186228072">
+    <state x="117" y="117" width="1344" height="840" key="DiffContextDialog" timestamp="1585859177971">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583667900492" />
-    <state x="117" y="117" width="1344" height="840" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584186228072" />
-    <state x="437" y="273" key="NewPhpClassDialog" timestamp="1584880552899">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="117" y="117" width="1344" height="840" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585859177971" />
+    <state x="510" y="319" key="NewPhpClassDialog" timestamp="1585859966875">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="437" y="273" key="NewPhpClassDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584880552899" />
-    <state x="510" y="319" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584179767326" />
+    <state x="510" y="319" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585859966875" />
     <state x="661" y="455" key="NewPhpFileDialog" timestamp="1584179775879">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -225,11 +232,11 @@
     </state>
     <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584875773220" />
     <state x="481" y="133" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585857194120" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1585858211701">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1585860076649">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1584879403060" />
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.75.1920.1057@0.0.1440.900" timestamp="1583668163978" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585858211701" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585860076649" />
   </component>
 </project>
