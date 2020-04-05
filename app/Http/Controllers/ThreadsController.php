@@ -23,6 +23,7 @@ class ThreadsController extends Controller
      *
      * @param Channel $channel
      * @param ThreadFilters $filters
+     * @return View
      */
     public function index(Channel $channel, ThreadFilters $filters): View
     {
@@ -70,12 +71,25 @@ class ThreadsController extends Controller
      * @param Thread $thread
      * @return View
      */
-    public function show($channelId, Thread $thread): View
+    public function show($channel, Thread $thread): View
     {
         return view('threads.show', [
             'thread' => $thread,
             'replies' => $thread->replies()->paginate(20)
         ]);
+    }
+
+    public function destroy($channel, Thread $thread)
+    {
+        $thread->replies()->delete();
+
+        $thread->delete();
+
+        if (request()->wantsJson()) {
+            return response([], 204);
+        }
+
+        return redirect('/threads');
     }
 
     /**
