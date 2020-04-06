@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="168ee58f-55b8-4f77-8c3a-68a942f4aa48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Activity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Reply.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ProfilesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ProfilesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ActivityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ActivityTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/forum/virtualbox/action_set_name" beforeDir="false" afterPath="$PROJECT_DIR$/.vagrant/machines/forum/virtualbox/action_set_name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/RecordsActivity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/RecordsActivity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,12 +178,26 @@
       <workItem from="1584178953715" duration="8927000" />
       <workItem from="1584874164340" duration="6630000" />
       <workItem from="1585759510336" duration="2851000" />
-      <workItem from="1586086183777" duration="3410000" />
+      <workItem from="1586086183777" duration="4426000" />
+      <workItem from="1586189886869" duration="252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1584875693543">
@@ -205,10 +217,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="498" y="186" key="#phpunit.xml/0.0.1680.1050@0.0.1680.1050" timestamp="1584179924847" />
-    <state x="117" y="117" width="1344" height="840" key="DiffContextDialog" timestamp="1585859177971">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1586090958985">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583667900492" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1586090958985" />
     <state x="117" y="117" width="1344" height="840" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585859177971" />
     <state x="437" y="273" key="NewPhpClassDialog" timestamp="1586089775733">
       <screen x="0" y="0" width="1440" height="900" />
@@ -224,20 +236,20 @@
     </state>
     <state x="521" y="168" key="RollbackChangesDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1583664816796" />
     <state x="608" y="196" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585856737634" />
-    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1584178953794">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="445" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1586189898586">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="445" y="306" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1581849485979" />
+    <state x="445" y="306" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1586189898586" />
     <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584178953794" />
     <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1586088744561">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="412" y="114" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1586088744561" />
     <state x="481" y="133" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585857194120" />
-    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup" timestamp="1586090723998">
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup" timestamp="1586190149389">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1586090723998" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.52.1920.1080@0.0.1440.900" timestamp="1586190149389" />
     <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900/-1920.75.1920.1057@0.0.1440.900" timestamp="1586090570993" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585860076649" />
   </component>
