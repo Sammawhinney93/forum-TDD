@@ -1,4 +1,4 @@
-Created a TDD forum based upon the Laracast series
+Created a TDD forum based upon the Laracast series, i've used a virtual box with homestead for this project.
 
 The idea behind this repo was to continue building on my backend laravel experience while taking a test driven approach.
 
